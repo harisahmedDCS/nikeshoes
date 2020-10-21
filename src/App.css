@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+
+  /* background-image: linear-gradient(to right, rgb(221, 82, 82), #f44444); */
+}
+.Landing-1 {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.MuiContainer-root {
+  margin-left: 200px;
+}
+.transform-1 {
+  float: left;
+  transform: rotate(270deg);
+  margin-top: 250px;
+  margin-left: -80px;
+  padding: 10px;
+  color: white;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+.transform-2 {
+  float: right;
+  transform: rotate(270deg);
+  margin-top: -190px;
+  color: white;
+  margin-right: -10px;
+  padding-left: 5px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+.circle {
+  float: right;
+  transform: rotate(270deg);
+  margin-top: -260px;
+  margin-right: 20px;
+}
+.icons-1 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -70px;
+  color: white;
+}
+.icons-2 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -40px;
+  color: white;
+}
+.icons-3 {
+  float: right;
+  margin-right: 40px;
+  margin-top: -2px;
+  color: white;
+}
+.Back {
+  color: white;
+
+  /* position: relative;
+  top: 0px;
+  left: 100px; */
+}
+.long-arrow {
+  /* margin-left: 100px;
+  margin-top: -55px; */
+}
+.vortex {
+  color: white;
+  letter-spacing: 5px;
+}
+.container {
+  width: 380px;
+  height: 60px;
+  margin-left: 150px;
+  margin-top: -160px;
+  color: white;
+}
+.star {
+  color: yellow;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.links {
+  padding: 10px;
+  margin-right: 430px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.links:hover {
+  background-color: rgba(19, 17, 17, 0.06);
+  border-radius: 5px;
+}
+
+.margin-1 {
+  margin-right: 60px;
+}
+.margin-2 {
+  margin-right: 60px;
+}
+.flex-box {
+  width: 100%;
+  margin-top: 100px;
+}
+/* Navbar responsiveness */
+
+@media (max-width: 600px) {
+  div .MuiBox-root-12 {
+    margin-left: 70px;
+  }
+  .link-responsive {
+    display: none;
+    height: 200px;
+  }
+
+  .image-1 {
+    width: 400px;
+    margin-left: -65px;
+    margin-top: -300px;
+  }
+
+  .container {
+    width: 280px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+  }
+  .star {
+    color: yellow;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .flex-box {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .MuiBox-root-6 {
+    margin-top: -120px;
+  }
+  .Landing-1 {
+    overflow-y: hidden;
+    height: 100vh;
+  }
+  .colors-1 {
+    margin-top: 60px;
+    margin-right: -20px;
+  }
+  .d-none {
+    display: none;
+  }
+  .mobile-1 {
+    display: none;
+  }
+}
+div .MuiBox-root-6 {
+  padding: 0px;
+  margin-top: -10px;
+}
+@media (min-width: 600px) {
+  .mobile-2 {
+    display: none;
+  }
+}

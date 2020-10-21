@@ -1,0 +1,100 @@
+.MuiAppBar-colorPrimary {
+  background-color: white;
+}
+.image {
+  /* background-color: #f0f0f0; */
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+.sneakers li {
+  float: right;
+  list-style: none;
+  margin: 20px 0px 0px 45px;
+  margin-bottom: 20px;
+  padding: 5px;
+  color: rgb(158, 156, 156);
+  font-family: 'Fjalla One', sans-serif;
+}
+.underline {
+  text-decoration: underline;
+  color: black;
+}
+.sneakers li:nth-child(1) {
+  margin-right: 350px;
+}
+.card-content {
+  text-align: center;
+  font-family: 'Fjalla One', sans-serif;
+  margin-top: -40px;
+}
+.text {
+  text-decoration: none;
+}
+.check {
+  text-align: center;
+  margin-top: -10px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+.bg-2 {
+  background-color: white;
+  padding: 0px 2px 552px 5px;
+}
+.bg {
+  background-color: rgba(234, 71, 71, 0.8);
+  padding: 0px 0px 552px 5px;
+}
+.container-1 {
+  max-width: 500px;
+  margin-top: -20px;
+  text-align: center;
+  margin-left: 500px;
+  position: absolute;
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.container-2 {
+  max-width: 500px;
+  text-align: center;
+  margin-left: 580px;
+  color: red;
+  margin-top: 100px;
+  position: absolute;
+  font-size: 50px;
+  font-family: 'Fjalla One', sans-serif;
+}
+.gap-1 {
+  max-width: 500px;
+  margin-left: 60px;
+  margin-top: 200px;
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.5rem;
+}
+.btn-1 {
+  background-color: #dddddd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+.btn-2 {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
